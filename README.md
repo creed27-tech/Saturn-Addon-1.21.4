@@ -1,22 +1,5 @@
 <div align="center">
 
-[![Meteorist Download][meteorist-banner-download]][meteorist-download]
-
-[![License][shield-repo-license]][repo-license]
-[![Release][shield-repo-latest]][repo-latest]
-[![Downloads][shield-repo-releases]][repo-releases]
-[![Stars][shield-repo-stargazers]][repo-stargazers]
-[![Code Size][shield-repo-code-size]][repo-code-size]
-[![Issues][shield-repo-issues]][repo-issues]
-[![Pulls][shield-repo-pulls]][repo-pulls]
-[![Forks][shield-repo-forks]][repo-forks]
-
-[![Discord][vidget-discord]][discord]
-
-[![Fabric][shield-fabric]][fabric]
-
-</div>
-
 ## ✅ Information
 
 [![Join Discord][shield-discord-server]][discord]
