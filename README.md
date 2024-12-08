@@ -51,20 +51,20 @@ To download the addon, follow these steps:
 | 22 | Auto Rename                                                       | Automatically renames items.                                                |
 | 23 | Auto Reply                                                        | Replies to messages automatically.                                          |
 | 24 | Auto Scoreboard                                                   | Automatically create a scoreboard using Starscript. Requires operator access.                                    |
-| 25 | Auto Sleep                                                        | Automatically logs in your account using /login.                            |
-| 26 | Auto Sneak                                                        | Automatically uses water bottle on dirt variants to get mud.                |
-| 27 | Auto Soup                                                         | Gets into bed automatically for you.                                        |
-| 28 | Auto Titles                                                       | Automatically sneaks at block edge (idea by kokqi).                         |
-| 29 | Auto TNT                                                          | Automatically trades items with villagers (idea by Hiradpi).                |
-| 30 | Auto Vertical                                                     | Automatically controls the boat for you.                                    |
-| 31 | Auto Walk HIG                                                     | Plays a sound when the Disconnected Screen appears (e.g., when kicked).     |
-| 32 | Auto Walk Plus                                                    | Spams messages in players direct messages.                                  |
-| 33 | Auto XP                                                           | Open both doors with one interaction.                                       |
-| 34 | Baritone Miner                                                    | Automatically interacts with entities in range.                             |
-| 35 | Blaze Farm                                                        | Allows you to place blocks on a grid.                                       |
-| 36 | Bonemeal Aura                                                     | Runs commands one by one with different delays and number of cycles.        |
-| 37 | Chest Aura                                                        | Automatically collects items on the ground                                  |
-| 38 | Digging Tools                                                     | Flight that using jumps for fly. No fall recommended.                       |
+| 25 | Auto Sleep                                                        | Gets into bed automatically for you.                                        |
+| 26 | Auto Sneak                                                        | Automatically sneaks at block edge (idea by kokqi).                         |
+| 27 | Auto Soup                                                         | Automatically eats soup when your health is low on some servers.            |
+| 28 | Auto Titles                                                       | Creates text across the screens for online players. Requires OP.            |
+| 29 | Auto TNT                                                          | Ignites tnt automatically. Good for griefing.                               |
+| 30 | Auto Vertical                                                     | Elytra fly's you to the moon                                                |
+| 31 | Auto Walk HIG                                                     | Automatically walks forward (optimized for highway digging).                |
+| 32 | Auto Walk Plus                                                    | Automatically walks forward (optimized for digging).                        |
+| 33 | Auto XP                                                           | Automatically interacts with xp bottles to repair armour.                   |
+| 34 | Baritone Miner                                                    | Paths automatically.                                                        |
+| 35 | Blaze Farm                                                        | Automatically farms Blazes.                                                 |
+| 36 | Bonemeal Aura                                                     | Automatically bonemeal crops around the player.                             | 
+| 37 | Chest Aura                                                        | Automatically open chests in radius.                                        |
+| 38 | Digging Tools                                                     | Automatically toggles the necessary modules to dig.                         |
 | 39 | Farmer                                                            | Makes you jump higher than normal using multiple jumps.                     |
 | 40 | Full Block Printer                                                | Places blocks in range.                                                     |
 | 41 | Hand Manager                                                      | Module that automates clicking on slots.                                    |
