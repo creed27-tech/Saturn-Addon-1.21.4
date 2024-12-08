@@ -29,28 +29,28 @@ To download the addon, follow these steps:
 |----|-------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | 1  | Afk Logout                                                        | Logs out when you reach certain coords. Useful for afk travelling.          |
 | 2  | Auto Bed Trap                                                     | Automatically places obsidian around beds.                                  |
-| 3  | Auto Center                                                       | Writes command in chat when health level is low.                            |
-| 4  | Auto Command                                                      | Automatically interact with interactable blocks like doors, trapdoors, etc. |
-| 5  | Auto Craft                                                        | Automatically leaves if entity in range.                                    |
-| 6  | Auto Displays                                                     | Automatically logs in your account using /login.                            |
-| 7  | Auto Drop                                                         | Automatically uses water bottle on dirt variants to get mud.                |
+| 3  | Auto Center                                                       | Automatically centers the player so that HighwayBorers mine on axis.        |
+| 4  | Auto Command                                                      | Automatically runs commands when player has/gets operator access.           |
+| 5  | Auto Craft                                                        | Automatically crafts items.                                                 |
+| 6  | Auto Displays                                                     | Automatically spam block or text displays around players. Requires OP.      |
+| 7  | Auto Drop                                                         | Drops the stack in your selected slot automatically.                        |
 | 8  | Auto Dump                                                         | Gets into bed automatically for you.                                        |
-| 9  | Auto Enchant                                                      | Automatically sneaks at block edge (idea by kokqi).                         |
-| 10 | Auto Extinguish                                                   | Automatically trades items with villagers (idea by Hiradpi).                |
-| 11 | Auto EZ                                                           | Automatically controls the boat for you.                                    |
-| 12 | Auto Farm                                                         | Plays a sound when the Disconnected Screen appears (e.g., when kicked).     |
-| 13 | Auto Feed                                                         | Spams messages in players direct messages.                                  |
-| 14 | Auto Fix                                                          | Open both doors with one interaction.                                       |
-| 15 | Auto Grind                                                        | Automatically interacts with entities in range.                             |
-| 16 | Auto Heal                                                         | Allows you to place blocks on a grid.                                       |
-| 17 | Auto Interact                                                     | Runs commands one by one with different delays and number of cycles.        |
-| 18 | Auto Leave                                                        | Automatically collects items on the ground                                  |
-| 19 | Auto Login                                                        | Flight that using jumps for fly. No fall recommended.                       |
-| 20 | Auto Mend                                                         | Logs out when you reach certain coords. Useful for afk travelling.          |
-| 21 | Auto Mud                                                          | Automatically places obsidian around beds.                                  |
-| 22 | Auto Rename                                                       | Writes command in chat when health level is low.                            |
-| 23 | Auto Reply                                                        | Automatically interact with interactable blocks like doors, trapdoors, etc. |
-| 24 | Auto Scoreboard                                                   | Automatically leaves if entity in range.                                    |
+| 9  | Auto Enchant                                                      | Automatically enchanting items.                                             |
+| 10 | Auto Extinguish                                                   | Automatically extinguishes fire around you.                                 |
+| 11 | Auto EZ                                                           | sends a custom message when a player dies.                                  |
+| 12 | Auto Farm                                                         | All-in-one farm utility.                                                    |
+| 13 | Auto Feed                                                         | Writes command in chat when hunger level is low.                            |
+| 14 | Auto Fix                                                          | Writes command in chat when item close to break.                            |
+| 15 | Auto Grind                                                        | Automatically disenchants items.                                            |
+| 16 | Auto Heal                                                         | Writes command in chat when health level is low.                            |
+| 17 | Auto Interact                                                     | Automatically interact with interactable blocks like doors, trapdoors, etc. |
+| 18 | Auto Leave                                                        | Automatically leaves if entity in range.                                    |
+| 19 | Auto Login                                                        | Runs command when joining specified server.                                 |
+| 20 | Auto Mend                                                         | Automatically mends your armor with experience bottles.                     |
+| 21 | Auto Mud                                                          | Automatically uses water bottle on dirt variants to get mud.                |
+| 22 | Auto Rename                                                       | Automatically renames items.                                                |
+| 23 | Auto Reply                                                        | Replies to messages automatically.                                          |
+| 24 | Auto Scoreboard                                                   | Automatically create a scoreboard using Starscript. Requires operator access.                                    |
 | 25 | Auto Sleep                                                        | Automatically logs in your account using /login.                            |
 | 26 | Auto Sneak                                                        | Automatically uses water bottle on dirt variants to get mud.                |
 | 27 | Auto Soup                                                         | Gets into bed automatically for you.                                        |
