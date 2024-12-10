@@ -5,6 +5,9 @@
 [+] Over 50 Commands
 [+] Frequent Updates
 
+## 🛠 Future Updates
+1. Port all modules from BedTrap to Saturn Addon V2 cuz why not.
+
 ## Status
 
 Currently broken! Only works when running the addon on IDE. This will be fixed soon!
