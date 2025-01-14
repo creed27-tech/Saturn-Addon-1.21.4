@@ -6,7 +6,11 @@
 [+] Frequent Updates
 
 ## 🛠 Future Updates
-1. Port all modules from Addons to Saturn Addon V3 cuz why not. (Actaully because i dont like when every addon has its own category and i sorted everything :D)
+1. Port all modules from Addons to Saturn Addon V3 cuz why not.
+
+## Note
+
+[!] Everything is skidded from addons so yeah.
 
 ## Status
 
