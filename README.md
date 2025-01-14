@@ -91,13 +91,13 @@ To download the addon, follow these steps:
 
 | №  | Module                                                            | Description                                                                 |
 |----|-------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| 57 | Auto Fix                                                          | Open both doors with one interaction.                                       |
-| 58 | Auto Grind                                                        | Automatically interacts with entities in range.                             |
-| 59 | Auto Heal                                                         | Allows you to place blocks on a grid.                                       |
-| 60 | Auto Interact                                                     | Runs commands one by one with different delays and number of cycles.        |
-| 61 | Auto Leave                                                        | Automatically collects items on the ground                                  |
-| 62 | Auto Login                                                        | Flight that using jumps for fly. No fall recommended.                       |
-| 63 | Auto Mend                                                         | Logs out when you reach certain coords. Useful for afk travelling.          |
+| 57 | Auto Lava Caster                                                  | Make Layers of Cobble on your Stairs! Aim at the top of the block you want to lava on.                                       |
+| 58 | Auto Map                                                          | Helps you build 2d schematics.                             |
+| 59 | Auto Mountain                                                     | Make Mountains!                                       |
+| 60 | Auto Staircase                                                    | Make stairs!        |
+| 61 | Auto Wither                                                       | Automatically builds withers.                                  |
+| 62 | Block In                                                          | Block yourself in using any block.                       |
+| 63 | BlockList#MineCommand                                             | Adds a custom #mine command to your message history containing all the blocks in the blocklist that are in the chunk you are in. Press T then up arrow, then ENTER key to execute the command. BETTER CHAT module is recommended for infinitely long commands.          |
 | 64 | Auto Mud                                                          | Automatically places obsidian around beds.                                  |
 | 65 | Auto Rename                                                       | Writes command in chat when health level is low.                            |
 | 66 | Auto Reply                                                        | Automatically interact with interactable blocks like doors, trapdoors, etc. |
