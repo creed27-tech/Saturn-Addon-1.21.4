@@ -6,7 +6,7 @@
 [+] Frequent Updates
 
 ## 🛠 Future Updates
-1. Port all modules from BedTrap to Saturn Addon V2 cuz why not.
+1. Port all modules from Addons to Saturn Addon V3 cuz why not. (Actaully because i dont like when every addon has its own category and i sorted everything :D)
 
 ## Status
 
@@ -86,6 +86,10 @@ To download the addon, follow these steps:
 | 54 | Shulker Drop                                                      | Automatically controls the boat for you.                                    |
 | 55 | Trail Maker                                                       | Plays a sound when the Disconnected Screen appears (e.g., when kicked).     |
 | 56 | Tree Aura                                                         | Spams messages in players direct messages.                                  |
+
+## Build
+
+
 | 57 | Auto Fix                                                          | Open both doors with one interaction.                                       |
 | 58 | Auto Grind                                                        | Automatically interacts with entities in range.                             |
 | 59 | Auto Heal                                                         | Allows you to place blocks on a grid.                                       |
