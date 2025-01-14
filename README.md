@@ -98,26 +98,16 @@ To download the addon, follow these steps:
 | 61 | Auto Wither                                                       | Automatically builds withers.                                  |
 | 62 | Block In                                                          | Block yourself in using any block.                       |
 | 63 | BlockList#MineCommand                                             | Adds a custom #mine command to your message history containing all the blocks in the blocklist that are in the chunk you are in. Press T then up arrow, then ENTER key to execute the command. BETTER CHAT module is recommended for infinitely long commands.          |
-| 64 | Auto Mud                                                          | Automatically places obsidian around beds.                                  |
-| 65 | Auto Rename                                                       | Writes command in chat when health level is low.                            |
-| 66 | Auto Reply                                                        | Automatically interact with interactable blocks like doors, trapdoors, etc. |
-| 67 | Auto Scoreboard                                                   | Automatically leaves if entity in range.                                    |
-| 68 | Auto Sleep                                                        | Automatically logs in your account using /login.                            |
-| 69 | Auto Sneak                                                        | Automatically uses water bottle on dirt variants to get mud.                |
-| 70 | Auto Soup                                                         | Gets into bed automatically for you.                                        |
-| 71 | Auto Titles                                                       | Automatically sneaks at block edge (idea by kokqi).                         |
-| 72 | Auto TNT                                                          | Automatically trades items with villagers (idea by Hiradpi).                |
-| 73 | Auto Vertical                                                     | Automatically controls the boat for you.                                    |
-| 74 | Auto Walk HIG                                                     | Plays a sound when the Disconnected Screen appears (e.g., when kicked).     |
-| 75 | Auto Walk Plus                                                    | Spams messages in players direct messages.                                  |
-| 76 | Auto XP                                                           | Open both doors with one interaction.                                       |
-| 77 | Baritone Miner                                                    | Automatically interacts with entities in range.                             |
-| 78 | Blaze Farm                                                        | Allows you to place blocks on a grid.                                       |
-| 79 | Bonemeal Aura                                                     | Runs commands one by one with different delays and number of cycles.        |
-| 80 | Chest Aura                                                        | Automatically collects items on the ground                                  |
-| 81 | Digging Tools                                                     | Flight that using jumps for fly. No fall recommended.                       |
-| 82 | Farmer                                                            | Makes you jump higher than normal using multiple jumps.                     |
-| 83 | Full Block Printer                                                | Places blocks in range.                                                     |
-| 84 | Hand Manager                                                      | Module that automates clicking on slots.                                    |
-| 85 | Hand Of God                                                       | Smart aimbot that takes many settings into account when targeting.          |
-| 86 | Hotbar Manager                                                    | Killaura which only attacks target if you aim at it.                        |
+| 64 | Grid                                                              | Allows you to place blocks on a grid.                                  |
+| 65 | Highway Builder HIG                                               | Automatically builds highways.                            |
+| 66 | Highway Tools                                                     | Digs, builds and repairs highways automatically. |
+| 67 | Insta Safety Box                                                  | Makes you safe by building box.                                    |
+| 68 | Lava Aura                                                         | Places lava buckets around you repeatedly.                            |
+| 69 | Lavacast                                                          | Automatically Lavacasts.                |
+| 70 | Lawn Bot                                                          | Replace a variety of dirt-type blocks with grass.                                        |
+| 71 | Liquid Filler HIG                                                 | Places blocks inside of liquid source blocks within range of you.                         |
+| 72 | Moss Bot                                                          | Use bonemeal on moss blocks with maximized efficiency.                |
+| 73 | Scaffold HIG                                                      | Scaffolds blocks under you.                                    |
+| 74 | Sign Placer                                                       | Gets text from first sign and then copies it and auto places on other signs.     |
+| 75 | Trouser Build                                                     | Can build either horizontally and vertically according to a 5x5 grid centered on the block you are aiming at.                                  |
+
