@@ -89,7 +89,8 @@ To download the addon, follow these steps:
 
 ## Build
 
-
+| №  | Module                                                            | Description                                                                 |
+|----|-------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | 57 | Auto Fix                                                          | Open both doors with one interaction.                                       |
 | 58 | Auto Grind                                                        | Automatically interacts with entities in range.                             |
 | 59 | Auto Heal                                                         | Allows you to place blocks on a grid.                                       |
