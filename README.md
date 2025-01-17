@@ -11,11 +11,10 @@
 ## Note
 
 [!] Everything is skidded from addons so yeah.
-[!] The Module list is not done yet so there's more modules than the list says.
 
 ## Status
 
-Currently broken! Only works when running the addon on IDE. This will be fixed soon!
+Currently broken! Only works when running the addon on IDE. Idk how to fix this!
 
 
 Addon for Meteor Client that adds new modules and commands. Currently not finished!
