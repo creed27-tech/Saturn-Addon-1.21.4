@@ -1,0 +1,75 @@
+package dev.saturn.addon.modules.Player;
+
+import meteordevelopment.meteorclient.events.world.TickEvent.Pre;
+import meteordevelopment.meteorclient.settings.Setting;
+import meteordevelopment.meteorclient.systems.modules.Categories;
+import meteordevelopment.meteorclient.utils.player.FindItemResult;
+import meteordevelopment.meteorclient.utils.player.InvUtils;
+import meteordevelopment.meteorclient.utils.player.Rotations;
+import meteordevelopment.orbit.EventHandler;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import dev.saturn.addon.modules.VHModuleHelper;
+import net.minecraft.registry.entry.RegistryEntry;
+
+public class VHXpThrower extends VHModuleHelper {
+    private final Setting<Boolean> rotate = this.setting("rotate", "Whether to rotate while throwing xp or not", Boolean.valueOf(true));
+    private final Setting<Integer> packetsPerTick = this.setting("bottles-per-tick", "How many bottles to throw per tick", Integer.valueOf(1), 1.0, 10.0);
+    private FindItemResult result;
+
+    public VHXpThrower() {
+        super(Categories.Player, "xp-thrower-vh", "Repairs items automatically using EXP bottles. | Ported from Venomhack");
+    }
+
+    @EventHandler
+    private void postTick(Pre event) {
+        this.result = InvUtils.findInHotbar(new Item[]{Items.EXPERIENCE_BOTTLE});
+        if (!this.result.found()) {
+            this.toggleWithInfo("Couldn't find XP bottles in your hotbar... Disabling!", new Object[0]);
+        } else {
+            int fullPieces = 0;
+            int mendablePieces = 0;
+
+            for (int i = 0; i < 4; ++i) {
+                ItemStack itemStack = this.mc.player.getInventory().getArmorStack(i);
+                if (!itemStack.isEmpty()) {
+                    if (EnchantmentHelper.getLevel((RegistryEntry<Enchantment>) Enchantments.MENDING, itemStack) > 0) {
+                        ++mendablePieces;
+                    }
+
+                    if (!itemStack.isDamaged()) {
+                        ++fullPieces;
+                    }
+                }
+            }
+
+            if (mendablePieces == 0) {
+                this.toggleWithInfo("Couldn't find a piece of armour with mending... Disabling!", new Object[0]);
+            } else if (fullPieces >= mendablePieces) {
+                this.toggleWithInfo("Your armour is fully repaired... Disabling!", new Object[0]);
+                if (this.rotate.get()) {
+                    Rotations.rotate((double) this.mc.player.getYaw(), 90.0, 15, this::throwXp);
+                } else {
+                    this.throwXp();
+                }
+            }
+        }
+    }
+
+    private void throwXp() {
+        InvUtils.swap(this.result.slot(), true);
+
+        for (int i = 0; i < this.packetsPerTick.get(); ++i) {
+            this.mc.player.networkHandler.sendPacket(new PlayerInteractItemC2SPacket(this.result.getHand(), 0, 1.0f, 1.0f)); // Use appropriate float values
+        }
+
+        this.mc.player.networkHandler.sendPacket(new HandSwingC2SPacket(this.result.getHand()));
+        InvUtils.swapBack();
+    }
+}

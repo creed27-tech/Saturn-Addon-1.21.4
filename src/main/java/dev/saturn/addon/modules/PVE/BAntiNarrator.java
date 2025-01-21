@@ -1,0 +1,53 @@
+package dev.saturn.addon.modules.PVE;
+
+import dev.saturn.addon.Saturn;
+import meteordevelopment.meteorclient.events.meteor.KeyEvent;
+import meteordevelopment.meteorclient.events.world.TickEvent;
+import meteordevelopment.meteorclient.settings.BoolSetting;
+import meteordevelopment.meteorclient.settings.EnumSetting;
+import meteordevelopment.meteorclient.settings.Setting;
+import meteordevelopment.meteorclient.settings.SettingGroup;
+import meteordevelopment.meteorclient.systems.modules.Module;
+import meteordevelopment.meteorclient.utils.misc.input.Input;
+import meteordevelopment.orbit.EventHandler;
+import net.minecraft.client.option.NarratorMode;
+import org.lwjgl.glfw.GLFW;
+
+public class BAntiNarrator extends Module {
+    public enum Mode {
+        Cancel,
+        Disable
+    }
+
+    private final SettingGroup sgGeneral = settings.getDefaultGroup();
+
+    private final Setting<Mode> mode = sgGeneral.add(new EnumSetting.Builder<Mode>()
+            .name("mode")
+            .defaultValue(Mode.Disable)
+            .build());
+
+    private final Setting<Boolean> macOs = sgGeneral.add(new BoolSetting.Builder()
+            .name("apple-PC")
+            .description("Oh no I am on an Apple PC... :sob:")
+            .defaultValue(false)
+            .visible(() -> mode.get() == Mode.Cancel)
+            .build());
+
+    public BAntiNarrator() {
+        super(Saturn.PVE, "B+-anti-narrator", "Stops the annoying narrator from popping up. Cancel = Cancel event when you press Ctrl+B, Disable = Automatically disables narrator when you turn it on.");
+    }
+
+    @EventHandler
+    private void onTick(TickEvent.Post event) {
+        if (!isActive()) return;
+        if (!mc.options.getNarrator().equals(NarratorMode.OFF) && mode.get() == Mode.Disable);
+    }
+
+    @EventHandler
+    private void onKey(KeyEvent event) {
+        if (!isActive()) return;
+        if (mode.get() == Mode.Cancel) {
+            if (Input.isKeyPressed(GLFW.GLFW_KEY_B) && (macOs.get() ? Input.isKeyPressed(GLFW.GLFW_KEY_LEFT_SUPER) : Input.isKeyPressed(GLFW.GLFW_KEY_LEFT_CONTROL))) event.cancel();
+        }
+    }
+}
