@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "saturn-addon",
+  "version": "3.2.4",
+  "name": "Saturn Addon V3",
+  "description": "Upcoming Saturn Addon but a lot better",
+  "authors": [
+    "StarlessMC"
+  ],
+  "contact": {
+    "repo": ""
+  },
+  "icon": "assets/other/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "dev.saturn.addon.Saturn"
+    ]
+  },
+  "accessWidener": "saturn-addon.accesswidener",
+  "mixins": [
+    "saturn.mixins.json",
+    "saturn-addon-meteor.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "255,0,255"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.3",
+    "meteor-client": "*"
+  }
+}
