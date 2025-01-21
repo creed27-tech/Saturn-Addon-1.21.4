@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "dev.saturn.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AccessorMinecraftClient",
+    "CountPlacementModifierAccessor",
+    "EntityAccessor",
+    "HeightRangePlacementModifierAccessor",
+    "IBlockSettings",
+    "IInteractEntityC2SPacket",
+    "IRaycastContext",
+    "PlayerMoveC2SPacketAccessor",
+    "PlayerPositionLookS2CPacketAccessor",
+    "RarityFilterPlacementModifierAccessor",
+    "TrouserSplashTextMixin",
+    "VehicleMoveC2SPacketAccessor",
+    "accessor.ClientConnectionAccessor",
+    "PlayerEntityMixin",
+    "minecraft.entity.ClientPlayerEntityMixin",
+    "minecraft.entity.LivingEntityMixin",
+    "minecraft.entity.PlayerMoveC2SPacketAccessor",
+    "lemon.IBlockSettings",
+    "zewo2.PlayerListEntryMixin",
+    "ClientCommonNetwokHandlerMixin"
+  ]
+}
