@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo and Title -->
-  <img src="icon.png" alt="logo" width="20%"/>
+  <img src="saturn-icon.png" alt="logo" width="20%"/>
   <h1>Saturn Addon</h1>
   <p>A massive skid addon for Meteor Client.</p>
 
@@ -28,6 +28,8 @@
 
 Currently broken! Only works when running the addon on IDE. Idk how to fix this!
 
+## Credits
+[Meteor Rejects](https://github.com/AntiCope/meteor-rejects)
 
 Addon for Meteor Client that adds new modules and commands. Currently not finished!
 
