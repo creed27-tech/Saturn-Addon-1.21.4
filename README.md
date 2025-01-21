@@ -29,8 +29,8 @@
 Currently broken! Only works when running the addon on IDE. Idk how to fix this!
 
 ## Credits
-[Meteor Rejects](https://github.com/AntiCope/meteor-rejects)
-[TrouserStreak](https://github.com/etianl/Trouser-Streak)
+- [Meteor Rejects](https://github.com/AntiCope/meteor-rejects)
+- [TrouserStreak](https://github.com/etianl/Trouser-Streak)
 [Meteorist](https://github.com/Zgoly/Meteorist)
 [BlackOut](https://github.com/KassuK1/BlackOut)
 [Vector](https://github.com/cally72jhb/vector-addon)
