@@ -76,6 +76,7 @@ Currently broken! Only works when running the addon on IDE. Idk how to fix this!
 - [Meteorite](https://github.com/haalrubaye/Meteorite-addon)
 - [Meteor Slime Chunks](https://github.com/davidCMs/meteor_client_slime_chunks)
 - [CMDLog](https://github.com/Ekibunnel/meteor-cmdlog-addon)
+- [Bidoof](https://github.com/RacoonDog/bidoof-meteor)
 
 ## ⬇️ Download
 
