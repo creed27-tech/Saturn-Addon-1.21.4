@@ -1,0 +1,36 @@
+package dev.saturn.addon.modules.Render.holograms;
+
+import meteordevelopment.meteorclient.utils.render.color.Color;
+import meteordevelopment.meteorclient.utils.world.Dimension;
+import net.minecraft.util.math.BlockPos;
+
+import java.util.ArrayList;
+
+public class HologramData {
+    public double x;
+    public double y;
+    public double z;
+    public String text;
+    public Color color;
+
+    public HologramData() {
+
+    }
+    public HologramData(double x, double y, double z, String text, String world, String dimension, Color color, double max_render_distance) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+        this.color = color;
+
+        this.text = text;
+    }
+
+    public HologramData(BlockPos pos, String text, String world, Dimension dimension, Color color, double max_render_distance) {
+        this.x = pos.getX();
+        this.y = pos.getY();
+        this.z = pos.getZ();
+        this.color = color;
+
+        this.text = text;
+    }
+}
