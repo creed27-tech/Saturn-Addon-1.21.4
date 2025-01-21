@@ -90,3 +90,6 @@ To download the addon, follow these steps:
 ## DMCA
 If you would like to have a feature removed that your the owner of, please dm me on discord or open an issue and include [DMCA] in your title.
 Username: starlessmc
+
+## Contributon
+Do it if you want or idk.
