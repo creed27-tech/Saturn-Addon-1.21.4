@@ -25,7 +25,7 @@ If you want to request a spefic module to be added please open an issue!
 
 ## Status
 
-Currently broken! Only works when running the addon on IDE. Idk how to fix this!
+Now works and dosen't crash on startup! Don't expect all modules to work as this is in beta!
 
 ## Credits
 - [Meteor Rejects](https://github.com/AntiCope/meteor-rejects)
