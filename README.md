@@ -6,7 +6,6 @@
 
   <!-- Fancy badges -->
   <a href="https://anticope.ml/pages/MeteorAddons.html"><img src="https://img.shields.io/badge/Verified%20Addon-No-blueviolet" alt="Verified Addon"></a>
-  <a href="https://github.com/Memeruler-k/Saturn-Addon/releases"><img src="https://img.shields.io/badge/Version-v3.2.4-orange" alt="Version"></a>
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.21.3-blue" alt="Minecraft Version">
 </div>
 
