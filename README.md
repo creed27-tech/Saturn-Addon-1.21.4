@@ -18,7 +18,7 @@
 - [+] Frequent Updates
 
 ## 🛠 Future Updates
-1. Fix all modules what are necessary.
+None
 
 ## Issues & Requests
 If you want to request a spefic module to be added please open an issue!
