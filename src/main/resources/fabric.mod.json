@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "saturn-addon",
   "version": "3.2.4",
-  "name": "Saturn Addon V3",
-  "description": "Upcoming Saturn Addon but a lot better",
+  "name": "Saturn Addon",
+  "description": "Massive skid addon made for fun.",
   "authors": [
     "StarlessMC"
   ],
