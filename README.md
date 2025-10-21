@@ -9,9 +9,9 @@
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.21.3-blue" alt="Minecraft Version">
 </div>
 
-## ⚠ NOTE ABOUT THIS ADDON:
+## ⚠ Update on the addon
 
-This addon is currently discontinued and probably wont get updates since ive decided to move on. So dont make any issues about this addon not working, im already aware of that.
+This addon will be continued however if any issues or bugs occur, please dm the person on discord below since i dont know how to fix the bugs myself but the developer knows.
 
 <hr />
 
@@ -91,7 +91,7 @@ To download the addon, follow these steps:
 4. Run Minecraft with Fabric 1.21.3
 
 ## DMCA
-If you would like to have a feature removed that your the owner of, please dm me on discord or open an issue and include [DMCA] in your title.
+If you would like to have a feature removed that your the owner of, please dm the developer on discord or open an issue and include [DMCA] in your title.
 Username: starlessmc
 
 ## Contributon
